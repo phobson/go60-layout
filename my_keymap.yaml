@@ -1,0 +1,255 @@
+layout: {zmk_keyboard: go60}
+layers:
+  Base:
+  - {t: '`', s: '~'}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: '$'}
+  - {t: '5', s: '%'}
+  - {t: '6', s: '^'}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: '('}
+  - {t: '0', s: ')'}
+  - {t: '-', s: '_'}
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: '\', s: '|'}
+  - {t: ESCAPE, h: NumFunc}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - {t: ';', s: ':'}
+  - {t: '''', s: '"'}
+  - LSHIFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - {t: ',', s: '<'}
+  - {t: '.', s: '>'}
+  - {t: '/', s: '?'}
+  - RSHIFT
+  - LALT
+  - LALT
+  - LWIN
+  - APP
+  - BSPC
+  - DEL
+  - LCTRL
+  - '&dbl_space'
+  - {t: '&mkp LCLK', h: LEFT SHIFT, type: held}
+  - {t: '&mkp RCLK', h: RIGHT SHIFT, type: held}
+  - {t: ENTER, h: Nav}
+  - RCTRL
+  Nav:
+  - ''
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - ''
+  - ''
+  - ''
+  - ''
+  - '-'
+  - ''
+  - {t: ▽, type: trans}
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - Sft+(
+  - Sft+)
+  - '['
+  - ']'
+  - +
+  - '='
+  - {t: ▽, type: trans}
+  - '='
+  - +
+  - /
+  - '-'
+  - F11
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - /
+  - DEL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''''
+  - '*'
+  - Sft+"
+  - F12
+  - HOME
+  - PG DN
+  - PG UP
+  - END
+  - '*'
+  - PSCRN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BSPC
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  NumFunc:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '7'
+  - '8'
+  - '9'
+  - KP SUBTRACT
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - Ctl+W
+  - Gui+E
+  - Ctl+R
+  - Ctl+T
+  - ''
+  - '4'
+  - '5'
+  - '6'
+  - KP PLUS
+  - '='
+  - {type: held}
+  - Ctl+A
+  - Ctl+S
+  - Gui+D
+  - Ctl+F
+  - Ctl+PG DN
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - KP DIVIDE
+  - BACKSPACE
+  - {t: ▽, type: trans}
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+B
+  - ''
+  - '0'
+  - '0'
+  - +
+  - KP MULTIPLY
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Magic:
+  - BT CLR
+  - BRI DN
+  - BRI UP
+  - PREV
+  - NEXT
+  - PP
+  - MUTE
+  - VOL DN
+  - VOL UP
+  - ''
+  - ''
+  - BT CLR ALL
+  - '&bootloader'
+  - RGB SPI
+  - RGB SAI
+  - RGB HUI
+  - RGB BRI
+  - RGB TOG
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&bootloader'
+  - '&sys_reset'
+  - RGB SPD
+  - RGB SAD
+  - RGB HUD
+  - RGB BRD
+  - RGB EFF
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&sys_reset'
+  - ''
+  - ''
+  - '&bt_0'
+  - '&bt_1'
+  - '&bt_2'
+  - '&bt_3'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: Factory, h: toggle}
+  - OUT USB
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+
+combos:
+- p: [54, 55]
+  k: '&period_space'
+  l: [Base]
+- p: [56, 57]
+  k: {t: '&rgb_ug_status_macro', h: Base}
+- p: [55, 56]
+  k: .
