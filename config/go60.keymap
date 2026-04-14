@@ -99,6 +99,13 @@
             #binding-cells = <2>;
             tapping-term-ms = <300>;
         };
+
+        dbl_space: dbl_space {
+            compatible = "zmk,behavior-tap-dance";
+            label = "DBL_SPACE";
+            #binding-cells = <0>;
+            bindings = <&kp SPACE>, <&kp KP_DOT>;
+        };
     };
 
     macros {
@@ -130,6 +137,23 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&out OUT_BLE &bt BT_SEL 3>;
+        };
+
+        period_space: period_space {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DOT &kp SPACE>;
+            label = "PERIOD_SPACE";
+        };
+    };
+
+    combos {
+        compatible = "zmk,combos";
+
+        ctrl_space {
+            bindings = <&period_space>;
+            key-positions = <54 55>;
+            layers = <0>;
         };
     };
 
