@@ -140,23 +140,23 @@
 
         layer_Nav {
             bindings = <
-&none                 &kp F1     &kp F2    &kp F3    &kp F4       &kp F5                                                   &kp F6        &kp F7        &kp F8     &kp F9     &kp MINUS  &none
-&trans                &kp F6     &kp F7    &kp F8    &kp F9       &kp F10                                                  &kp LS(LPAR)  &kp LS(RPAR)  &kp LBKT   &kp RBKT   &kp PLUS   &kp EQUAL
-&trans                &kp EQUAL  &kp PLUS  &kp FSLH  &kp MINUS    &kp F11                                                  &kp LEFT      &kp DOWN      &kp UP     &kp RIGHT  &kp FSLH   &kp DEL
-&magic LAYER_Magic 0  &kp LC(Z)  &kp SQT   &kp STAR  &kp LS(DQT)  &kp SQT                                                  &kp HOME      &kp PG_DN     &kp PG_UP  &kp END    &kp STAR   &kp PSCRN
-                                 &trans    &trans    &trans                                                                              &trans        &trans     &trans
-                                                                           &trans  &trans  &trans  &trans  &trans  &trans
+&none   &kp F1     &kp F2    &kp F3    &kp F4       &kp F5                                                   &none         &none         &none             &none      &kp MINUS  &none
+&trans  &kp F6     &kp F7    &kp F8    &kp F9       &kp F10                                                  &kp LS(LPAR)  &kp LS(RPAR)  &kp LEFT_BRACKET  &kp RBKT   &kp PLUS   &kp EQUAL
+&trans  &kp EQUAL  &kp PLUS  &kp FSLH  &kp MINUS    &kp F11                                                  &kp LEFT      &kp DOWN      &kp UP            &kp RIGHT  &kp FSLH   &kp DEL
+&trans  &trans     &kp SQT   &kp STAR  &kp LS(DQT)  &kp SQT                                                  &kp HOME      &kp PG_DN     &kp PG_UP         &kp END    &kp STAR   &kp PSCRN
+                   &trans    &trans    &trans                                                                              &trans        &trans            &trans
+                                                             &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         layer_Numpad {
             bindings = <
-&none   &none         &none     &none       &none      &none                                                          &none  &kp N7  &kp N8  &kp N9    &kp KP_SUBTRACT  &none
-&trans  &kp LS(EXCL)  &kp N1    &kp LS(AT)  &kp N2     &kp LS(POUND)                                                  &none  &kp N4  &kp N5  &kp N6    &kp KP_PLUS      &kp EQUAL
-&trans  &kp AT        &kp LEFT  &kp DOWN    &kp RIGHT  &kp PG_DN                                                      &none  &kp N1  &kp N2  &kp N3    &kp KP_DIVIDE    &kp BACKSPACE
-&trans  &kp HASH      &kp LBKT  &kp RBKT    &kp LBRC   &kp RBRC                                                       &none  &kp N0  &kp N0  &kp PLUS  &kp KP_MULTIPLY  &trans
-                      &trans    &trans      &trans                                                                           &trans  &trans  &trans
-                                                                      &trans  &trans  &trans  &trans  &trans  &trans
+&none   &none      &none      &none      &none      &none                                                          &none  &kp N7  &kp N8  &kp N9    &kp KP_SUBTRACT  &none
+&trans  &none      &kp LC(W)  &kp LG(E)  &kp LC(R)  &kp LC(T)                                                      &none  &kp N4  &kp N5  &kp N6    &kp KP_PLUS      &kp EQUAL
+&trans  &kp LC(A)  &kp LC(S)  &kp LG(D)  &kp LC(F)  &kp LC(PG_DN)                                                  &none  &kp N1  &kp N2  &kp N3    &kp KP_DIVIDE    &kp BACKSPACE
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)                                                      &none  &kp N0  &kp N0  &kp PLUS  &kp KP_MULTIPLY  &trans
+                   &trans     &trans     &trans                                                                           &trans  &trans  &trans
+                                                                   &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
