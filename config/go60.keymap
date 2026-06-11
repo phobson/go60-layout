@@ -369,8 +369,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp SPACE>
-                , <&kp MINUS>
                 , <&kp LS(COMMA)>
+                , <&kp MINUS>
                 , <&kp SPACE>;
         };
     };
