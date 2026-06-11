@@ -483,7 +483,7 @@
  &trans  &kp F6  &kp F7   &kp F8   &kp F9  &kp F10                                                    &kp LS(N1)  &kp LS(N2)  &kp LS(N3)    &kp LS(N4)  &kp LS(N5)     &trans
  &trans   &none   &none  &kp F11  &kp F12    &none                                                    &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(BSLH)    &kp BSLH     &trans
                  &trans   &trans   &trans                                                                             &trans      &trans        &trans
-                                                    &trans   &none  &trans  &trans  &kp BSPC  &trans
+                                                    &trans   &none  &trans  &trans  &kp DEL  &trans
             >;
         };
 
