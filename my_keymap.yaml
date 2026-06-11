@@ -1,19 +1,19 @@
 layout: {zmk_keyboard: go60}
 layers:
   Base:
-  - {t: '`', s: '~'}
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: '$'}
-  - {t: '5', s: '%'}
-  - {t: '6', s: '^'}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: '('}
-  - {t: '0', s: ')'}
-  - {t: '\', s: '|'}
-  - TAB
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - \
+  - {t: TAB, h: Numbers}
   - Q
   - W
   - E
@@ -56,60 +56,60 @@ layers:
   - {t: '&rgb_ug_status_macro', h: Magic}
   - BSPC
   - LCTRL
-  - {t: SPACE, h: NumSym}
-  - {t: "_", h: LSHFT}
-  - {t: ":", h: RSHFT}
-  - {t: RET, h: NavWrapFkey}
+  - {t: SPACE, h: FuncSym}
+  - LSHFT
+  - RSHFT
+  - {t: RET, h: NavWrapMath}
   - RCTRL
-  NavWrapFkey:
-  - ''
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - PSCRN
+  NavWrapMath:
   - {t: ▽, type: trans}
   - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
   - "<"
   - ">"
+  - ''''
   - '"'
-  - "'"
+  - '`'
   - '['
   - "("
   - ")"
   - ']'
-  - F11
-  - '='
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - '='
-  - +
-  - /
+  - "+"
   - "-"
+  - "/"
   - "*"
   - LEFT
   - DOWN
   - UP
   - RIGHT
-  - F12
-  - DEL
-  - {t: ▽, type: trans}
+  - "{"
   - ''
+  - {t: ▽, type: trans}
+  - ' = '
+  - ' -> '
   - "_"
-  - '_'
-  - ':'
-  - {t: '`', s: '~'}
+  - ":"
+  - "~"
   - HOME
   - PG DN
   - PG UP
   - END
+  - "}"
   - ''
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -118,59 +118,59 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BSPC
-  - DEL
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  NumSym:
-  - '`'
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP 4
-  - KP 5
+  FuncSym:
   - ''
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP MINUS
-  - Sft+KP NUM
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - PSCRN
   - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - HOME
+  - PG DN
+  - PG UP
+  - END
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
   - "!"
   - "@"
   - "#"
   - "$"
   - "%"
-  - ''
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP PLUS
-  - '='
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - F11
+  - F12
+  - ''
   - "^"
   - "&"
   - "*"
   - "|"
-  - "~"
-  - ''
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP MULTIPLY
-  - KP ENTER
+  - "\\"
   - {t: ▽, type: trans}
-  - KP 6
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP 0
-  - ''
-  - KP 0
-  - KP 0
-  - KP DOT
-  - KP SLASH
-  - KP ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -181,12 +181,10 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - DEL
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-
 
 combos:
-
 - p: [36, 47]
   k: '&caps_word'
   l: [Base]
