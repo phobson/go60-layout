@@ -99,7 +99,7 @@ layers:
   - "{"
   - ''
   - {t: ▽, type: trans}
-  - ' = '
+  - ' = (code)'
   - ' -> '
   - "_"
   - ":"
@@ -160,8 +160,8 @@ layers:
   - "%"
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
+  - ' = (code)'
+  - ' <- '
   - F11
   - F12
   - ''
